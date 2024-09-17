@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #343541;  /* Fondo gris oscuro como ChatGPT */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;  /* El contenedor ocupará el 100% del ancho de la ventana */
+    height: 100vh; /* El contenedor ocupará el 100% del alto de la ventana */
+}
+
+video {
+    width: 90vw;   /* El video ocupará el 90% del ancho de la ventana */
+    height: 90vh;  /* El video ocupará el 90% del alto de la ventana */
+    border: none;  /* Sin borde */
+}
